@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>在线动画 动漫下载 - AGE动漫</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="在线动画,动漫下载,AGE动漫,Agefans">
+    <meta name="description" content="AGE动漫专注于资源收集整理 海量的有效的高质量的动漫资源下载 动漫百度网盘下载">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link type="text/css" rel="stylesheet" href="https://cdn.aiqingyu1314.com/age/static/css/common.css?ver=202205122310">
+    <link type="text/css" rel="stylesheet" href="https://cdn.aiqingyu1314.com/age/static/css/index.css?ver=202205122310">
+    <script type="text/javascript" src="https://cdn.aiqingyu1314.com/age/static/js/history.js?ver=202205122310"></script>
+    
+    <!-- overload -->
+  </head>
+  
+  <body>
+    <div id="root">
+      <div id="top">
+        <div id="logo">
+          <a href="/" title="AGE动漫">AGE动漫</a></div>
+        <div class="loginout">
+          <span class="svg_title svg_title_user"></span>
+          <a class="loginout_btn2" href="/accounts/profile/">获取中...</a>
+
+          <script>
+              __html_set_username();
+          </script>
+
+        </div>
+      </div>
+      <header id="nav">
+        <a class="nav_button  nav_button_current " href="/">首页</a>
+        <a class="nav_button " href="/catalog/all-all-all-all-all-time-1">目录</a>
+        <a class="nav_button " href="/recommend">每日推荐</a>
+        <a class="nav_button " href="/update">最近更新</a>
+        <a class="nav_button " href="/rank">排行榜</a>
+        <form id="top_search_from" class="search_form" action="/search" method="get" onsubmit="return on_top_search_form();">
+          <input id="top_search_input" class="search_input" name="query" wrap="SOFT" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="输入关键字" value=""></input>
+          <input class="search_submit" class="" type="submit" value="">
+          <input type="hidden" name="page" value="1"></form>
+
+        <script type="text/javascript">function on_top_search_form() {
+            var value = document.getElementById("top_search_input").value;
+            if (value == null || value == "") {
+              alert("请输入搜索关键字");
+              return false;
+            }
+          }
+          var top_search_input = document.getElementById("top_search_input");
+          function onfocus() {
+            top_search_input.classList.add("search_input_ex");
+          }
+          function onfocusout() {
+            top_search_input.classList.remove("search_input_ex");
+          }
+          if (top_search_input.addEventListener) {
+            top_search_input.addEventListener('focus', onfocus);
+            top_search_input.addEventListener('focusout', onfocusout);
+          } else {
+            top_search_input.onfocus = onfocus;
+            top_search_input.onfocusout = onfocusout;
+          }</script>
+      </header>
+      <div id="container">
+        
+	<div id="new_tip1" style="color: #E00;padding: 8px;margin: 0 7px;margin-top: 10px;margin-bottom:-14px;font-size: 14px;border: 1px solid #C00;">AGE动漫网 备用地址：<a rel="nofollow" target="_blank" href="http://www.age.tv" style="color: #60b8cc;text-decoration:  none;">www.age.tv</a> 欢迎大家分享给身边朋友！为确保正常观看，请使用谷歌浏览器。</div>
+	
+        <div class="spaceblock1"></div>
+        
+	<style>
+	.app-dl-m {
+		display: none;
+	}
+	@media only screen and (min-width:0em) and (max-width:40em) {
+		.app-dl-m {
+		display: block;
+		width: 100%;
+		}
+		.app-dl-m2 {
+		margin: 3px 7px;
+		}
+		.app-dl-m img {
+		width: 100%;
+		}
+	}
+	</style>
+	<div class="app-dl-m">
+		<div class="app-dl-m2">
+		<a rel="nofollow" target="_blank" href="https://www.agefans.app"><img src="https://p3.toutiaoimg.com/origin/ff1a0001f72b80a2ad90" alt=""></a>
+		</div>
+	</div>
+	
+
+        <div class="div_right baseblock">
+          <div class="blocktitle">每周放送列表</div>
+          <div class="blockcontent">
+            <ul id="new_anime_btns">
+              <li id="new_anime_page_btn_1" class="new_anime_btn new_anime_btn_current highlighttag" onclick="on_new_anime_page_btn(this, 1)">周一</li>
+              <li id="new_anime_page_btn_2" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 2)">周二</li>
+              <li id="new_anime_page_btn_3" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 3)">周三</li>
+              <li id="new_anime_page_btn_4" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 4)">周四</li>
+              <li id="new_anime_page_btn_5" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 5)">周五</li>
+              <li id="new_anime_page_btn_6" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 6)">周六</li>
+              <li id="new_anime_page_btn_0" class="new_anime_btn  highlighttag" onclick="on_new_anime_page_btn(this, 0)">周日</li></ul>
+
+            <ul id="new_anime_page" hidden="hidden">
+              <li class="one_new_anime">
+                <a class="one_new_anime_name" href=""></a>
+                <a class="one_new_anime_ji" href=""></a>
+              </li>
+            </ul>
+
+            <script type="text/javascript">
+            
+              var new_anime_list = [{"isnew":false,"id":"20220038","wd":1,"name":"转生贤者的异世界生活","mtime":"2022-09-12 20:10:00","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220212","wd":1,"name":"欢迎来到实力至上主义的教室 第二季","mtime":"2022-10-26 17:01:53","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220406","wd":1,"name":"风都侦探","mtime":"2022-10-17 10:44:09","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220042","wd":1,"name":"新人炼金术师的店铺经营","mtime":"2022-12-26 23:10:02","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220422","wd":1,"name":"后宫露营！","mtime":"2022-12-06 10:10:07","namefornew":"第8集(完结)"},{"isnew":false,"id":"20220385","wd":1,"name":"彼得·格里尔的贤者时间 第二季","mtime":"2023-01-08 23:47:03","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220127","wd":1,"name":"死神 千年血战篇","mtime":"2023-01-09 23:32:28","namefornew":"第13集(完结)"},{"isnew":true,"id":"20220516","wd":1,"name":"我与机器子","mtime":"2023-02-27 14:10:11","namefornew":"第12集"},{"isnew":true,"id":"20220187","wd":1,"name":"万事屋斋藤到异世界","mtime":"2023-02-27 14:10:15","namefornew":"00:00 第08集"},{"isnew":true,"id":"20230028","wd":1,"name":"Show Time! ~想要做唱歌的大姐姐 第二季","mtime":"2023-02-27 14:10:10","namefornew":"01:00 第6.5集"},{"isnew":true,"id":"20220285","wd":1,"name":"再得一胜！","mtime":"2023-02-27 14:10:11","namefornew":"25:35 第08集"},{"isnew":true,"id":"20220426","wd":1,"name":"飙速宅男 LIMIT BREAK","mtime":"2023-02-27 12:10:16","namefornew":"19:00 第20集"},{"isnew":false,"id":"20220286","wd":1,"name":"High Card","mtime":"2023-02-21 20:10:13","namefornew":"20:00 第07集"},{"isnew":false,"id":"20220240","wd":1,"name":"黄金神威 第四季","mtime":"2022-11-09 08:52:06","namefornew":"22:00 第06集"},{"isnew":false,"id":"20220128","wd":1,"name":"吸血鬼马上死 第二季","mtime":"2023-02-21 20:10:12","namefornew":"23:00 第07集"},{"isnew":false,"id":"20230034","wd":1,"name":"KJ FILE 续篇","mtime":"2023-01-03 16:12:15","namefornew":"PV"},{"isnew":false,"id":"20220253","wd":2,"name":"东方少年 第二季","mtime":"2022-09-27 00:40:26","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220214","wd":2,"name":"金装的维尔梅～濒临堕落的魔法师和最强的灾厄一起冲入魔法世界～","mtime":"2022-09-21 17:06:55","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220216","wd":2,"name":"名侦探柯南 零的日常","mtime":"2022-04-05 12:44:34","namefornew":"第6集(完结)"},{"isnew":false,"id":"20220030","wd":2,"name":"前进吧！登山少女 第四季","mtime":"2022-12-21 03:56:47","namefornew":"第12集(完结)"},{"isnew":false,"id":"20210251","wd":2,"name":"电锯人","mtime":"2022-12-28 00:42:58","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220309","wd":2,"name":"忍者一时","mtime":"2022-12-21 20:10:15","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220391","wd":2,"name":"名侦探柯南 犯人犯泽先生","mtime":"2023-01-09 23:39:18","namefornew":"第12集(完结)"},{"isnew":false,"id":"20230035","wd":2,"name":"FLAGLIA","mtime":"2023-02-07 02:25:47","namefornew":"第06集(完结)"},{"isnew":false,"id":"20220267","wd":2,"name":"又酷又有点冒失的男孩子们","mtime":"2023-01-09 23:39:19","namefornew":"00:30 第19集"},{"isnew":false,"id":"20210270","wd":2,"name":"海盗战记 第二季","mtime":"2023-02-22 00:14:03","namefornew":"00:30 第7集"},{"isnew":false,"id":"20220094","wd":2,"name":"物物语","mtime":"2023-02-22 00:14:04","namefornew":"00:30 第7集"},{"isnew":false,"id":"20220118","wd":2,"name":"妖幻三重奏","mtime":"2023-02-08 00:33:32","namefornew":"01:05 第04集"},{"isnew":true,"id":"20220231","wd":2,"name":"永久少年 Eternal Boys","mtime":"2023-02-27 14:10:13","namefornew":"01:20 第20集"},{"isnew":false,"id":"20220105","wd":2,"name":"英雄王，为了穷尽武道而转生","mtime":"2023-02-22 00:14:02","namefornew":"01:45 第7集"},{"isnew":false,"id":"20230036","wd":2,"name":"拥有超常技能的异世界流浪美食家","mtime":"2023-02-23 00:10:21","namefornew":"00:00 第07集"},{"isnew":false,"id":"20230024","wd":2,"name":"不相信人类的冒险者们好像要去拯救世界","mtime":"2023-02-22 22:10:18","namefornew":"22:35 第08集"},{"isnew":false,"id":"20220294","wd":2,"name":"久保同学不放过我","mtime":"2023-02-15 23:10:22","namefornew":"23:30 第06集"},{"isnew":false,"id":"20220428","wd":3,"name":"人类毛病大学 -不死学部不幸学科-","mtime":"2022-12-28 00:42:58","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220232","wd":3,"name":"恋爱FLOPS","mtime":"2022-12-29 01:07:08","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220060","wd":3,"name":"转生成为魔剑","mtime":"2022-12-28 00:42:57","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220234","wd":3,"name":"Do It Yourself!!","mtime":"2022-12-28 00:42:55","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220066","wd":3,"name":"路人超能100 第三季","mtime":"2022-12-28 00:42:57","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220222","wd":3,"name":"不道德公会","mtime":"2022-12-28 00:42:56","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220470","wd":3,"name":"VAZZROCK THE ANIMATION","mtime":"2023-01-26 01:29:59","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220134","wd":3,"name":"异世界舅舅","mtime":"2022-12-25 14:10:20","namefornew":"第12集"},{"isnew":false,"id":"20230036","wd":3,"name":"拥有超常技能的异世界流浪美食家","mtime":"2023-02-23 00:10:21","namefornew":"00:00 第07集"},{"isnew":false,"id":"20230026","wd":3,"name":"TechnoRoid 超越意志","mtime":"2023-02-17 00:12:00","namefornew":"00:00 第07集"},{"isnew":false,"id":"20230010","wd":3,"name":"文豪野犬 第四季","mtime":"2023-02-23 22:22:40","namefornew":"00:30 第8集"},{"isnew":false,"id":"20230041","wd":3,"name":"埃及神明们的日常 第二季","mtime":"2023-02-23 12:18:03","namefornew":"01:00 第7集"},{"isnew":false,"id":"20230021","wd":3,"name":"魔术士欧菲流浪之旅 第三季","mtime":"2023-02-23 20:10:18","namefornew":"10:30 第06集"},{"isnew":false,"id":"20230015","wd":3,"name":"转生王女与天才千金的魔法革命","mtime":"2023-02-23 20:10:17","namefornew":"21:00 第08集"},{"isnew":false,"id":"20220076","wd":3,"name":"想要成为影之实力者","mtime":"2023-02-23 00:10:02","namefornew":"21:30 第20集(完结)"},{"isnew":false,"id":"20220417","wd":3,"name":"冰属性男子与酷酷女同事","mtime":"2023-02-22 22:10:19","namefornew":"22:30 第08集"},{"isnew":false,"id":"20220233","wd":3,"name":"生而为狗 我很幸福","mtime":"2023-02-24 23:10:39","namefornew":"23:30 第08集"},{"isnew":false,"id":"20200184","wd":3,"name":"因为太怕痛就全点防御力了 第二季","mtime":"2023-02-16 23:24:21","namefornew":"23:30 第06集"},{"isnew":false,"id":"20220001","wd":4,"name":"期待在地下城邂逅有错吗 第四季 迷宮篇","mtime":"2022-10-13 13:14:17","namefornew":"第11集(完结)"},{"isnew":false,"id":"20210125","wd":4,"name":"打工吧！魔王大人 第二季","mtime":"2022-09-29 22:45:20","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220132","wd":4,"name":"Muv-Luv Alternative 第二季","mtime":"2022-12-22 03:46:22","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220356","wd":4,"name":"秋叶原女仆战争","mtime":"2022-12-28 00:42:55","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220183","wd":4,"name":"书虫公主","mtime":"2022-12-23 23:10:30","namefornew":"第12集(完结)"},{"isnew":false,"id":"20230037","wd":4,"name":"伊藤润二《狂热集》","mtime":"2023-01-19 21:41:24","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220361","wd":4,"name":"与猫共度的夜晚","mtime":"2023-01-12 22:10:02","namefornew":"第30集(完结)"},{"isnew":false,"id":"20230027","wd":4,"name":"弦音 -联系的一箭-","mtime":"2023-02-24 00:10:29","namefornew":"00:00 第08集"},{"isnew":false,"id":"20220175","wd":4,"name":"大雪海的凯纳","mtime":"2023-02-24 00:10:27","namefornew":"00:55 第07集"},{"isnew":false,"id":"20220378","wd":4,"name":"某天早上变成人头麦克风的我君的人生","mtime":"2022-11-28 22:31:28","namefornew":"00:00 第05集"},{"isnew":false,"id":"20230005","wd":4,"name":"智酱是女生！","mtime":"2023-02-24 00:10:28","namefornew":"01:00 第08集"},{"isnew":false,"id":"20230029","wd":4,"name":"复仇者","mtime":"2023-02-24 23:10:41","namefornew":"22:30 第8集"},{"isnew":false,"id":"20220223","wd":4,"name":"间谍教室","mtime":"2023-02-17 23:10:40","namefornew":"22:30 第07集"},{"isnew":false,"id":"20230025","wd":4,"name":"期待在地下城邂逅有错吗 第四季 厄災篇","mtime":"2023-02-24 22:17:18","namefornew":"23:00 第19集"},{"isnew":false,"id":"20220268","wd":4,"name":"别当欧尼酱了！","mtime":"2023-02-24 23:10:40","namefornew":"23:30 第08集"},{"isnew":false,"id":"20220454","wd":5,"name":"银河英雄传说 Die Neue These 策谋","mtime":"2022-12-23 09:10:02","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220152","wd":5,"name":"我家师傅没有尾巴","mtime":"2022-12-24 00:13:22","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220300","wd":5,"name":"福星小子","mtime":"2023-02-25 01:14:24","namefornew":"00:45 第19集"},{"isnew":false,"id":"20220450","wd":5,"name":"冰剑的魔术师将要统一世界","mtime":"2023-02-25 01:14:24","namefornew":"01:28 第08集"},{"isnew":false,"id":"20230019","wd":5,"name":"异世界悠闲农家","mtime":"2023-02-25 21:25:06","namefornew":"21:00 第08集"},{"isnew":false,"id":"20220449","wd":5,"name":"英雄传说 闪之轨迹 Northern War","mtime":"2023-02-25 22:10:26","namefornew":"21:00 第8集"},{"isnew":false,"id":"20220494","wd":5,"name":"百万吨级武藏 第二季","mtime":"2022-10-21 11:58:27","namefornew":"21:00 第15话(生肉)"},{"isnew":false,"id":"20230033","wd":5,"name":"Love Live! 虹咲学园校园偶像同好会 短篇动画","mtime":"2023-02-25 21:29:45","namefornew":"21:05 第08集"},{"isnew":false,"id":"20220050","wd":5,"name":"银砂糖师与黑妖精","mtime":"2023-02-25 20:52:49","namefornew":"21:30 第08集"},{"isnew":false,"id":"20220200","wd":5,"name":"令和的Di Gi Charat","mtime":"2023-02-17 23:10:02","namefornew":"22:40 第16集(完结)"},{"isnew":true,"id":"20230031","wd":5,"name":"D4DJ All Mix","mtime":"2023-02-27 14:10:12","namefornew":"23:30 第08集"},{"isnew":true,"id":"20230048","wd":5,"name":"宠物小精灵：目标是宝可梦大师","mtime":"2023-02-26 22:39:35","namefornew":"第07集"},{"isnew":false,"id":"20220310","wd":6,"name":"点满农民相关技能后，不知为何就变强了。","mtime":"2022-12-18 21:11:37","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220327","wd":6,"name":"被勇者队伍开除的驯兽师，邂逅最强种的猫耳少女","mtime":"2022-12-24 23:32:16","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220436","wd":6,"name":"间谍过家家 Part2","mtime":"2022-12-24 23:32:18","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220414","wd":6,"name":"明日方舟 黎明前奏","mtime":"2022-12-18 01:22:40","namefornew":"第8集(完结)"},{"isnew":false,"id":"20220176","wd":6,"name":"惑星公主蜥蜴骑士","mtime":"2022-12-31 01:55:42","namefornew":"第24集(完结)"},{"isnew":false,"id":"20220121","wd":6,"name":"孤独摇滚！","mtime":"2023-01-14 23:44:42","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220277","wd":6,"name":"圣剑传说 玛娜传奇 -泪珠水晶-","mtime":"2022-12-31 01:55:41","namefornew":"第12A集(完结)"},{"isnew":false,"id":"20230030","wd":6,"name":"杀手奶爸","mtime":"2023-02-26 00:45:16","namefornew":"00:30 第08集"},{"isnew":false,"id":"20220245","wd":6,"name":"真?进化果实～不知不觉踏上胜利的人生～","mtime":"2023-02-26 00:45:16","namefornew":"01:23 第07集"},{"isnew":false,"id":"20230022","wd":6,"name":"阿尔斯的巨兽","mtime":"2023-02-26 00:45:15","namefornew":"01:25 第08集"},{"isnew":false,"id":"20220133","wd":6,"name":"傲娇恶役大小姐莉泽洛特与实况转播远藤君和解说员小林","mtime":"2023-02-26 01:18:01","namefornew":"02:55 第08集"},{"isnew":false,"id":"20230043","wd":6,"name":"卡片战斗先导者 will+Dress 第二季","mtime":"2023-02-26 12:10:21","namefornew":"08:00 第07集"},{"isnew":true,"id":"20220151","wd":6,"name":"影之诗 第二季","mtime":"2023-02-26 14:10:25","namefornew":"09:00 第46集"},{"isnew":false,"id":"20200319","wd":6,"name":"勇者斗恶龙 达伊的大冒险","mtime":"2022-10-22 11:14:51","namefornew":"09:30 第100集"},{"isnew":false,"id":"20180062","wd":6,"name":"斗罗大陆","mtime":"2022-12-31 12:16:00","namefornew":"10:00 第248集"},{"isnew":true,"id":"20000005","wd":6,"name":"名侦探柯南","mtime":"2023-02-26 19:12:39","namefornew":"18:30 第1132集"},{"isnew":true,"id":"20220034","wd":6,"name":"入间同学入魔了 第三季","mtime":"2023-02-26 20:10:21","namefornew":"20:25 第20集"},{"isnew":true,"id":"20220432","wd":6,"name":"被解雇的暗黑士兵(30岁)慢生活的第二人生","mtime":"2023-02-26 20:10:20","namefornew":"22:00 第08集"},{"isnew":true,"id":"20230049","wd":6,"name":"狩火之王","mtime":"2023-02-26 22:16:46","namefornew":"22:30 第07集"},{"isnew":true,"id":"20220143","wd":6,"name":"关于邻家的天使大人不知不觉把我惯成了废人这档子事","mtime":"2023-02-26 23:10:26","namefornew":"23:00 更新08集"},{"isnew":true,"id":"20230050","wd":6,"name":"奥特曼 新世代之星","mtime":"2023-02-26 18:33:19","namefornew":"23:00 第05集"},{"isnew":true,"id":"20230032","wd":6,"name":"枪神 斯坦比特","mtime":"2023-02-26 23:40:22","namefornew":"23:30 第08集"},{"isnew":false,"id":"20220217","wd":0,"name":"异世界药局","mtime":"2022-09-25 21:39:37","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220250","wd":0,"name":"RWBY 冰雪帝国","mtime":"2022-09-21 18:31:04","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220362","wd":0,"name":"武藏野！","mtime":"2021-07-02 09:22:16","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220332","wd":0,"name":"花火酱总是迟到","mtime":"2021-06-15 21:07:24","namefornew":"第12话(完结)"},{"isnew":false,"id":"20220298","wd":0,"name":"最近雇佣的女仆有点怪","mtime":"2022-10-09 09:34:58","namefornew":"第11集(完结)"},{"isnew":false,"id":"20220119","wd":0,"name":"后宫之乌","mtime":"2022-12-25 00:49:00","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220101","wd":0,"name":"传颂之物 二人的白皇","mtime":"2022-12-28 11:09:44","namefornew":"第28集(完结)"},{"isnew":false,"id":"20220249","wd":0,"name":"pop子和pipi美的日常 第二季","mtime":"2022-12-18 01:31:16","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220100","wd":0,"name":"夫妇以上、恋人未满","mtime":"2022-12-26 00:50:00","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220455","wd":0,"name":"IDOLiSH7-偶像星愿- Third BEAT! 第二季","mtime":"2022-12-26 00:50:00","namefornew":"第17集"},{"isnew":false,"id":"20230039","wd":0,"name":"极主夫道 第二季","mtime":"2023-01-06 23:20:16","namefornew":"第5集(完结)"},{"isnew":false,"id":"20220184","wd":0,"name":"机动战士高达 水星的魔女","mtime":"2023-01-08 17:41:40","namefornew":"第12集(完结)"},{"isnew":false,"id":"20220383","wd":0,"name":"4个人各自有着自己的秘密","mtime":"2023-01-08 02:16:30","namefornew":"第11集(完结)"},{"isnew":false,"id":"20220448","wd":0,"name":"剑风传奇 黄金时代篇 MEMORIAL EDITION","mtime":"2023-01-08 02:16:31","namefornew":"第13集(完结)"},{"isnew":false,"id":"20220365","wd":0,"name":"KJ File","mtime":"2022-07-23 15:38:48","namefornew":"第1集"},{"isnew":true,"id":"20230038","wd":0,"name":"UniteUp! 偶像集结","mtime":"2023-02-27 00:11:05","namefornew":"00:00 第06集"},{"isnew":true,"id":"20230023","wd":0,"name":"尼尔 自动人形 Ver1.1a","mtime":"2023-02-27 00:44:14","namefornew":"00:30 第05集"},{"isnew":true,"id":"20220019","wd":0,"name":"蓝色监狱","mtime":"2023-02-27 00:44:14","namefornew":"01:00 第20集"},{"isnew":false,"id":"20210126","wd":0,"name":"魔王学院的不适合者 第二季","mtime":"2023-02-13 01:09:37","namefornew":"01:00 第06集"},{"isnew":true,"id":"20220068","wd":0,"name":"不要欺负我，长瀞同学 第二季","mtime":"2023-02-27 00:44:13","namefornew":"01:00 第09集"},{"isnew":true,"id":"20220186","wd":0,"name":"最强阴阳师的异世界转生记","mtime":"2023-02-27 00:44:13","namefornew":"01:30 第08集"},{"isnew":true,"id":"20230014","wd":0,"name":"为了养老金去异界存八万金","mtime":"2023-02-27 02:03:36","namefornew":"02:00 第08集"},{"isnew":true,"id":"20220344","wd":0,"name":"东京复仇者 圣夜决战篇","mtime":"2023-02-27 11:46:06","namefornew":"02:08 第08集"},{"isnew":false,"id":"20220246","wd":0,"name":"游戏王GO RUSH!!","mtime":"2023-02-25 12:29:45","namefornew":"06:30 第46集"},{"isnew":false,"id":"20220148","wd":0,"name":"Delicious Party 光之美少女","mtime":"2023-02-06 20:10:23","namefornew":"07:30 第45集"},{"isnew":true,"id":"20210349","wd":0,"name":"数码宝贝 幽灵游戏","mtime":"2023-02-27 12:10:17","namefornew":"08:00 第65集"},{"isnew":true,"id":"20230052","wd":0,"name":"伸向天空！光之美少女","mtime":"2023-02-27 12:10:17","namefornew":"08:30 第04集"},{"isnew":true,"id":"20000001","wd":0,"name":"海贼王","mtime":"2023-02-27 10:10:18","namefornew":"第1053集"},{"isnew":true,"id":"20170172","wd":0,"name":"博人传 火影忍者新时代","mtime":"2023-02-27 14:10:18","namefornew":"17:30 第289集"},{"isnew":true,"id":"20220029","wd":0,"name":"致不灭的你 第二季","mtime":"2023-02-27 14:10:14","namefornew":"18:00 第18集"},{"isnew":true,"id":"20220044","wd":0,"name":"被神捡到的男人 第二季","mtime":"2023-02-27 14:10:16","namefornew":"21:30 第08集"},{"isnew":true,"id":"20230011","wd":0,"name":"沦落者之夜","mtime":"2023-02-27 14:10:12","namefornew":"22:00 第08集"},{"isnew":true,"id":"20220084","wd":0,"name":"虚构推理 第二季","mtime":"2023-02-27 14:10:14","namefornew":"23:05 第8集"}];
+              
+              function on_new_anime_page_btn(obj, idx) {
+                var lastnode = document.querySelector('.new_anime_btn_current');
+                lastnode.classList.remove('new_anime_btn_current');
+                var currentnode = document.getElementById('new_anime_page_btn_' + idx);
+                currentnode.classList.add('new_anime_btn_current');
+
+                //
+                var new_anime_wd = new_anime_list.filter(function(x) {
+                  return x.wd == idx;
+                });
+                // the list page
+                var new_anime_page = document.getElementById('new_anime_page');
+
+                var firstElementChild = new_anime_page.firstElementChild;
+                var delta = new_anime_wd.length - new_anime_page.children.length;
+                if (delta < 0) {
+                  for (var i = 0; i < -delta; i++) {
+                    new_anime_page.removeChild(new_anime_page.firstElementChild);
+                  }
+                }
+                if (delta > 0) {
+                  for (var i = 0; i < delta; i++) {
+                    new_anime_page.appendChild(firstElementChild.cloneNode(true));
+                  }
+                }
+                for (var i = 0; i < new_anime_wd.length; i++) {
+                  var data = new_anime_wd[i];
+                  var node = new_anime_page.children[i];
+                  var nodename = node.children[0];
+                  var nodename1 = node.children[1];
+                  nodename.text = data.name;
+                  nodename.setAttribute('href', '/detail/' + data.id);
+                  nodename1.text = data.namefornew;
+                  nodename1.setAttribute('href', '/detail/' + data.id);
+                  var nodenew = node.children[2];
+                  if (data.isnew && !nodenew) {
+                    var nodenew = document.createElement('div');
+                    nodenew.setAttribute('class', 'one_anime_new');
+                    nodenew.innerText = 'new!';
+                    node.appendChild(nodenew);
+                  } else if (!data.isnew && nodenew) {
+                    node.removeChild(nodenew);
+                  }
+                }
+                //
+                new_anime_page.removeAttribute('hidden');
+              }
+
+              //
+              var mydate=new Date();
+              var myddy=mydate.getDay();
+              on_new_anime_page_btn(undefined, myddy);
+
+            </script>
+          </div>
+
+          <!-- -->
+          <hr class="hrspace clear" style="width: 95%;">
+          <div class="blocktitle">最近更新</div>
+          <div class="blockcontent">
+            <ul id="anime_update">
+              
+        <li class="one_new_anime">
+            <a href="/detail/20220524" class="one_new_anime_name" style="width: 220px;">暴太郎战队DON BROTHERS</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20170172" class="one_new_anime_name" style="width: 220px;">博人传 火影忍者新时代</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220044" class="one_new_anime_name" style="width: 220px;">被神捡到的男人 第二季</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220522" class="one_new_anime_name" style="width: 220px;">赛马娘四格 第二季</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220187" class="one_new_anime_name" style="width: 220px;">万事屋斋藤到异世界</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220029" class="one_new_anime_name" style="width: 220px;">致不灭的你 第二季</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220084" class="one_new_anime_name" style="width: 220px;">虚构推理 第二季</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220231" class="one_new_anime_name" style="width: 220px;">永久少年 Eternal Boys</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20230031" class="one_new_anime_name" style="width: 220px;">D4DJ All Mix</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20230011" class="one_new_anime_name" style="width: 220px;">沦落者之夜</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220285" class="one_new_anime_name" style="width: 220px;">再得一胜！</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220516" class="one_new_anime_name" style="width: 220px;">我与机器子</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20230028" class="one_new_anime_name" style="width: 220px;">Show Time! ~想要做唱歌的大姐姐 第二季</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20230052" class="one_new_anime_name" style="width: 220px;">伸向天空！光之美少女</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20210349" class="one_new_anime_name" style="width: 220px;">数码宝贝 幽灵游戏</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220426" class="one_new_anime_name" style="width: 220px;">飙速宅男 LIMIT BREAK</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220344" class="one_new_anime_name" style="width: 220px;">东京复仇者 圣夜决战篇</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20220437" class="one_new_anime_name" style="width: 220px;">假面骑士极狐</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20000001" class="one_new_anime_name" style="width: 220px;">海贼王</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+        <li class="one_new_anime">
+            <a href="/detail/20230014" class="one_new_anime_name" style="width: 220px;">为了养老金去异界存八万金</a>
+            <span class="anime_update_date asciifont" style="margin-left: 12px;">2023-02-27</span>
+        </li>
+		
+            </ul>
+          </div>
+        </div>
+        <div class="div_left baseblock">
+          <div class="blocktitle">
+            <a href="/recommend">每日推荐</a></div>
+          <div class="blockcontent">
+            <ul class="ul_li_a5">
+              	
+        <li class="anime_icon1">
+            <a href="/detail/20160098">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20160098_small.jpg" alt="ReLIFE" title="[TV 01-13]">
+                <span class="anime_icon1_name1">[TV 01-13]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20160098">
+                <div class="anime_icon1_name">ReLIFE</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20180124">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20180124_small.jpg" alt="天狼 Sirius the Jaeger" title="[TV 01-12]">
+                <span class="anime_icon1_name1">[TV 01-12]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20180124">
+                <div class="anime_icon1_name">天狼 Sirius the Jaeger</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20140103">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20140103_small.jpg" alt="M3～索诺黑钢～" title="[TV 01-24]">
+                <span class="anime_icon1_name1">[TV 01-24]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20140103">
+                <div class="anime_icon1_name">M3～索诺黑钢～</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20070056">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20070056_small.jpg" alt="暗夜魔法使" title="[全集 01-13]">
+                <span class="anime_icon1_name1">[全集 01-13]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20070056">
+                <div class="anime_icon1_name">暗夜魔法使</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20130104">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20130104_small.jpg" alt="来自风平浪静的明天" title="[TV 01-26]">
+                <span class="anime_icon1_name1">[TV 01-26]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20130104">
+                <div class="anime_icon1_name">来自风平浪静的明天</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20130005">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20130005_small.jpg" alt="我的脑内恋碍选项" title="第10集(完结)">
+                <span class="anime_icon1_name1">第10集(完结)</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20130005">
+                <div class="anime_icon1_name">我的脑内恋碍选项</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20080012">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20080012_small.jpg" alt="女神异闻录 圣洁之魂" title="[TV 01-26]">
+                <span class="anime_icon1_name1">[TV 01-26]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20080012">
+                <div class="anime_icon1_name">女神异闻录 圣洁之魂</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20090029">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20090029_small.jpg" alt="学生会的一己之见" title="[BD 01-12]">
+                <span class="anime_icon1_name1">[BD 01-12]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20090029">
+                <div class="anime_icon1_name">学生会的一己之见</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20160011">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20160011_small.jpg" alt="双星之阴阳师" title="[TV 01-50]">
+                <span class="anime_icon1_name1">[TV 01-50]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20160011">
+                <div class="anime_icon1_name">双星之阴阳师</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20160149">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20160149_small.jpg" alt="熊巫女" title="[TV 01-12+OVA]">
+                <span class="anime_icon1_name1">[TV 01-12+OVA]</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20160149">
+                <div class="anime_icon1_name">熊巫女</div></a>
+        </li>
+		
+              
+            </ul>
+          </div>
+          <hr class="hrspace clear" style="width: 98%;">
+
+          <div class="app-dl">
+            <a rel="nofollow" target="_blank" href="https://www.agefans.app"><img src="https://p3.toutiaoimg.com/origin/137370002e7fbe11b296a" alt=""></a>
+          </div>
+
+          <div class="blocktitle">
+            <a href="/update">最近更新</a></div>
+          <div class="blockcontent">
+            <ul class="ul_li_a5">
+              	
+        <li class="anime_icon1">
+            <a href="/detail/20220524">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220524_small.jpg" alt="暴太郎战队DON BROTHERS" title="第10集">
+                <span class="anime_icon1_name1">第10集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220524">
+                <div class="anime_icon1_name">暴太郎战队DON BROTHERS</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20170172">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20170172_small.jpg" alt="博人传 火影忍者新时代" title="17:30 第289集">
+                <span class="anime_icon1_name1">17:30 第289集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20170172">
+                <div class="anime_icon1_name">博人传 火影忍者新时代</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220044">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220044_small.jpg" alt="被神捡到的男人 第二季" title="21:30 第08集">
+                <span class="anime_icon1_name1">21:30 第08集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220044">
+                <div class="anime_icon1_name">被神捡到的男人 第二季</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220522">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220522_small.jpg" alt="赛马娘四格 第二季" title="第20集">
+                <span class="anime_icon1_name1">第20集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220522">
+                <div class="anime_icon1_name">赛马娘四格 第二季</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220187">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220187_small.jpg" alt="万事屋斋藤到异世界" title="00:00 第08集">
+                <span class="anime_icon1_name1">00:00 第08集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220187">
+                <div class="anime_icon1_name">万事屋斋藤到异世界</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220029">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220029_small.jpg" alt="致不灭的你 第二季" title="18:00 第18集">
+                <span class="anime_icon1_name1">18:00 第18集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220029">
+                <div class="anime_icon1_name">致不灭的你 第二季</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220084">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220084_small.jpg" alt="虚构推理 第二季" title="23:05 第8集">
+                <span class="anime_icon1_name1">23:05 第8集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220084">
+                <div class="anime_icon1_name">虚构推理 第二季</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20220231">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20220231_small.jpg" alt="永久少年 Eternal Boys" title="01:20 第20集">
+                <span class="anime_icon1_name1">01:20 第20集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20220231">
+                <div class="anime_icon1_name">永久少年 Eternal Boys</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20230031">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20230031_small.jpg" alt="D4DJ All Mix" title="23:30 第08集">
+                <span class="anime_icon1_name1">23:30 第08集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20230031">
+                <div class="anime_icon1_name">D4DJ All Mix</div></a>
+        </li>
+			
+        <li class="anime_icon1">
+            <a href="/detail/20230011">
+                <img referrerpolicy="no-referrer" width="120px" height="165px" class="anime_icon1_img" src="https://cdn.aqdstatic.com:966/age/20230011_small.jpg" alt="沦落者之夜" title="22:00 第08集">
+                <span class="anime_icon1_name1">22:00 第08集</span></a>
+            <a class="anime_icon1_name_a" href="/detail/20230011">
+                <div class="anime_icon1_name">沦落者之夜</div></a>
+        </li>
+		
+            </ul>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <footer id="footer">
+        <div id="footer_container">
+          <div class="pannel clearfix">
+            <div class="pannel_head clearfix">
+              <h3 class="title">友情链接：</h3></div>
+            <ul class="link_text list_scroll clearfix">
+              <li>
+                <a class="text_muted" href="https://www.88hd.com" title="88影视网" target="_blank">88影视网</a></li>
+              <li>
+                <a class="text_muted" href="https://www.95mm.tv" title="MM范性感美女图" target="_blank">MM范性感美女图</a></li>
+              <li>
+                <a class="text_muted" href="https://www.mgtvyy.com" title="美果TV" target="_blank">美果TV</a></li>
+              <li>
+                <a class="text_muted" href="https://www.weibotu.vip" title="微博兔影视" target="_blank">微博兔影视</a></li>
+              <li>
+                <a class="text_muted" href="https://www.91mayi.cc" title="黑蚂蚁影院" target="_blank">黑蚂蚁影院</a></li>
+ 
+            </ul>
+            
+            <span style="color: #DDD;">友链申请，欢迎PR3以上、收录正常的的网站友链！</span>
+
+          </div>
+
+        </div>
+      </footer>
+
+    </div>
+    <script>var _hmt = _hmt || []; (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7fdef555dc32f7d31fadd14999021b7b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script>
+  </body>
+
+</html>
