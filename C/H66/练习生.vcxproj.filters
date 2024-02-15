@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11_9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1234to3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="17.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="18.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="19.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="21.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="26.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="30.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="31.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="33.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="34.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="35.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="abcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="average.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble_Sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isPrime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="max.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Narcissistic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p216-14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p82-5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prime_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prime_table2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search_bisection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search_struct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tempCodeRunnerFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe结局检查.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="倒数之和(正负交替).c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="凑硬币.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="切正方形.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="反序.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="坐标.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="复合赋值.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="平均数计算.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="找零计算1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="找零计算2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="数字位数检测.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="数组查找.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="整数分解.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="整数逆序.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="斐波那契数列.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="时间差计算.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="最大公约数1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="最大公约数2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="特定数的和.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="猜数.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="百以内奇偶和.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="素数判断.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="计数器.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="计算器.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="身高换算.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="连续数求和函数.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="阶乘.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

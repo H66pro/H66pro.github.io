@@ -1,0 +1,2 @@
+﻿mian.obj : error LNK2019: 无法解析的外部符号 sleep，函数 mouseListener 中引用了该符号
+D:\Personal\Desktop\Code\C\Acllib\x64\Debug\text.exe : fatal error LNK1120: 1 个无法解析的外部命令

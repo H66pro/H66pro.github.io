@@ -1,0 +1,12 @@
+# ninja log v5
+0	340	7207210145245169	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+341	481	7207210146627977	Learn_Windows.exe	c04bcb5329fefa54
+5	1676	7207229967993701	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+3	1272	7207248318947767	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+1272	1379	7207248319984201	Learn_Windows.exe	c04bcb5329fefa54
+4	1215	7207248640109599	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+1216	1327	7207248641208656	Learn_Windows.exe	c04bcb5329fefa54
+3	1409	7207253166632374	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+1410	1577	7207253168281085	Learn_Windows.exe	c04bcb5329fefa54
+5	2655	7207278383556854	CMakeFiles/Learn_Windows.dir/main.cpp.obj	17769b85aef6803
+6	216	7207278407564204	Learn_Windows.exe	c04bcb5329fefa54

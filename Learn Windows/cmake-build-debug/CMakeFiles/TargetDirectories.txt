@@ -1,0 +1,3 @@
+D:/Personal/Desktop/Code/Learn Windows/cmake-build-debug/CMakeFiles/Learn_Windows.dir
+D:/Personal/Desktop/Code/Learn Windows/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Personal/Desktop/Code/Learn Windows/cmake-build-debug/CMakeFiles/rebuild_cache.dir
